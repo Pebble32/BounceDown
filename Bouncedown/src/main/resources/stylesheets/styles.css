@@ -1,0 +1,8 @@
+.root{
+    -fx-font-size: 16px;
+}
+
+.bord{
+    -fx-background-image: url("./myndir/bg.jpg");
+    -fx-background-position: center;
+}

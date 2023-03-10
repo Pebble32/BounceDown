@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="264.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <header>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="85.0" prefWidth="358.0" />
+    </header>
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="116.0" prefWidth="358.0">
+            <children>
+                <Label layoutX="81.0" layoutY="48.0" text="Username" />
+                <TextField fx:id="fxUsername" layoutX="172.0" layoutY="44.0" />
+                <Label layoutX="81.0" layoutY="76.0" prefHeight="26.0" prefWidth="84.0" text="Þú náði:" />
+            <Label fx:id="fxLokaStig" layoutX="172.0" layoutY="76.0" prefHeight="26.0" prefWidth="84.0" />
+            </children>
+        </AnchorPane>
+    </content>
+    <ButtonType fx:id="fxILagi" buttonData="OK_DONE" text="Í lagi" />
+    <ButtonType fx:id="fxHaettaVid" buttonData="CANCEL_CLOSE" text="Hætta við" />
+
+</DialogPane>
