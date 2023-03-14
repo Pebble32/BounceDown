@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import vidmot.Leikbord?>
 
-<BorderPane stylesheets="@../stylesheets/styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.BounceController">
+<BorderPane fx:id="fxBorderPane" minWidth="400.0" minHeight="500.0" stylesheets="@../stylesheets/styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.BounceController">
     <bottom>
         <Label fx:id="fxScore" contentDisplay="RIGHT" prefHeight="43.0" prefWidth="182.0" BorderPane.alignment="CENTER" />
     </bottom>

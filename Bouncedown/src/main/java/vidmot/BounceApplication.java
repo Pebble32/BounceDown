@@ -1,15 +1,10 @@
 package vidmot;
 
 import javafx.application.Application;
-import javafx.beans.property.ReadOnlyObjectProperty;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
-
-import java.util.HashMap;
 
 import java.io.IOException;
 
@@ -24,10 +19,10 @@ public class BounceApplication extends Application {
 
         stage.setTitle(BOUNCEDOWN);
         Scene scene = new Scene(root, 400, 500);
-        sc.orvatakkar(sc, scene);
+        sc.orvatakkar(scene); // kalla á mapping fall fyrir takka
         stage.setScene(scene);
         stage.show();
-        sc.hefjaLeik();
+        sc.hefjaLeik(); // kalla á keyframe fall til að byrja leik
     }
 
 

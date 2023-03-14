@@ -2,15 +2,9 @@
 
 <?import javafx.scene.layout.Pane?>
 <?import vidmot.Bolti?>
-<?import vidmot.Pallur?>
 
-<fx:root prefHeight="370.0" prefWidth="300.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root minWidth="400" minHeight="425" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Bolti fx:id="fxBolti" centerX="148.0" centerY="62.0" radius="17.0" />
-      <Pallur height="18.0" layoutX="95.0" layoutY="79.0" width="106.0" />
-      <Pallur height="18.0" layoutX="148.0" layoutY="147.0" width="106.0" />
-      <Pallur height="18.0" layoutX="7.0" layoutY="220.0" width="106.0" />
-      <Pallur height="18.0" layoutX="230.0" layoutY="220.0" width="106.0" />
-      <Pallur height="18.0" layoutY="336.0" width="106.0" />
    </children>
 </fx:root>
