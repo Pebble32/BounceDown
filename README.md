@@ -57,3 +57,6 @@ This project was developed as a practice exercise rather than for any commercial
    ```
 #### Controlls
 * Arrow Keys: Use the left and right arrow keys to control the bouncing ball as it moves through the platforms.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
